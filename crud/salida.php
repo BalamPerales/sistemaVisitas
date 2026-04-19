@@ -12,8 +12,10 @@
     $respuesta = $crud->registrarSalida($id, $horaSalidaActual);
 
     if ($respuesta) {
-        header("location: ../index.php");
+        header("location:../index.php");
         exit();
+    } else {
+        echo "Error al registrar la salida";
     }
 
 ?>

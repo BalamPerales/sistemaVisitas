@@ -1,3 +1,4 @@
+<!-- Modal para agregar, sólo requerimos nombre de quién visita, a quién y ya -->
 <div class="modal fade" id="modalAgregar" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
